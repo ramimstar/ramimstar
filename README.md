@@ -1,6 +1,6 @@
 <!-- ================= HEADER ================= -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:F05138,50:FF6B35,100:7B2FF7&text=Md%20Ramim%20Biswas&fontColor=FFFFFF&fontSize=50&fontAlignY=36&desc=iOS%20Developer%20%E2%80%A2%20Swift%20%26%20SwiftUI&descSize=18&descAlignY=56&animation=fadeIn" alt="Md Ramim Biswas — iOS Developer" />
+  <img width="100%" src="assets/header.svg" alt="Md Ramim Biswas — iOS Developer" />
 </p>
 
 <p align="center">
@@ -149,12 +149,7 @@ A privacy-first personal finance app for iPhone, 100% on-device.
 </table>
 
 <p align="center">
-  <a href="https://github.com/ramimstar/PleaseDoTutorials">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=ramimstar&repo=PleaseDoTutorials&theme=github_dark&hide_border=true&title_color=F05138&icon_color=F05138" />
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=ramimstar&repo=PleaseDoTutorials&hide_border=true&title_color=F05138&icon_color=F05138" alt="PleaseDoTutorials" />
-    </picture>
-  </a>
+  <a href="https://github.com/ramimstar?tab=repositories"><img src="https://img.shields.io/badge/See%20all%20projects-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="See all projects" /></a>
 </p>
 
 <br/>
@@ -163,27 +158,15 @@ A privacy-first personal finance app for iPhone, 100% on-device.
 <h2><img src="https://img.shields.io/badge/-GitHub%20Stats-F05138?style=flat-square" height="28" alt="GitHub Stats" /></h2>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ramimstar&show_icons=true&theme=github_dark&hide_border=true&title_color=F05138&icon_color=F05138&rank_icon=github" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=ramimstar&show_icons=true&hide_border=true&title_color=F05138&icon_color=F05138&rank_icon=github" alt="GitHub stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ramimstar&layout=compact&theme=github_dark&hide_border=true&title_color=F05138" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramimstar&layout=compact&hide_border=true&title_color=F05138" alt="Top languages" />
-  </picture>
+  <a href="https://github.com/ramimstar?tab=followers"><img src="https://img.shields.io/github/followers/ramimstar?style=for-the-badge&logo=github&label=Followers&labelColor=0D1117&color=F05138" alt="Followers" /></a>
+  <a href="https://github.com/ramimstar/MoneyStalker"><img src="https://img.shields.io/github/languages/top/ramimstar/MoneyStalker?style=for-the-badge&logo=swift&logoColor=F05138&labelColor=0D1117&color=F05138" alt="Top language" /></a>
+  <a href="https://github.com/ramimstar/MoneyStalker/commits/main"><img src="https://img.shields.io/github/last-commit/ramimstar/MoneyStalker?style=for-the-badge&label=Last%20Commit&labelColor=0D1117&color=F05138" alt="Last commit" /></a>
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ramimstar&theme=github-dark-blue&hide_border=true&ring=F05138&fire=F05138&currStreakLabel=F05138" />
     <img src="https://streak-stats.demolab.com?user=ramimstar&hide_border=true&ring=F05138&fire=F05138&currStreakLabel=F05138" alt="GitHub streak" />
-  </picture>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ramimstar&bg_color=0D1117&color=C9D1D9&line=F05138&point=FFFFFF&area=true&area_color=F05138&hide_border=true" />
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=ramimstar&bg_color=FFFFFF&color=24292F&line=F05138&point=24292F&area=true&area_color=F05138&hide_border=true" alt="Contribution graph" />
   </picture>
 </p>
 
@@ -196,5 +179,5 @@ A privacy-first personal finance app for iPhone, 100% on-device.
 </p>
 
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:7B2FF7,50:FF6B35,100:F05138" alt="" />
+  <img width="100%" src="assets/footer.svg" alt="" />
 </p>
