@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F05138"/>
+      <stop offset="0.55" stop-color="#FF6B35"/>
+      <stop offset="1" stop-color="#7B2FF7"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="300" rx="24"/></clipPath>
+    <style>
+      .name { font: 800 64px -apple-system, "SF Pro Display", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; letter-spacing: -1px; }
+      .role { font: 600 24px -apple-system, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; fill-opacity: .92; }
+      .pill { font: 600 15px -apple-system, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; }
+      .fade { opacity: 0; animation: fade 1s ease-out forwards; }
+      .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s }
+      @keyframes fade { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }
+      .wave1 { animation: drift 9s ease-in-out infinite alternate; }
+      .wave2 { animation: drift 12s ease-in-out infinite alternate-reverse; }
+      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-120px) } }
+      .sweep { animation: sweep 6s ease-in-out infinite; }
+      @keyframes sweep { 0% { transform: translateX(-700px) } 60%,100% { transform: translateX(1300px) } }
+      .float { animation: float 5s ease-in-out infinite alternate; }
+      @keyframes float { from { transform: translateY(0) } to { transform: translateY(-8px) } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+
+    <!-- soft glows -->
+    <circle cx="1040" cy="40" r="180" fill="#FFFFFF" opacity=".08"/>
+    <circle cx="120" cy="290" r="160" fill="#7B2FF7" opacity=".12"/>
+
+    <!-- waves -->
+    <path class="wave2" d="M0 230 C 150 200, 300 270, 450 240 S 750 200, 900 235 S 1200 265, 1350 230 L1350 300 L0 300 Z" fill="#FFFFFF" opacity=".10"/>
+    <path class="wave1" d="M0 255 C 180 230, 330 290, 520 262 S 820 230, 1000 260 S 1250 285, 1350 255 L1350 300 L0 300 Z" fill="#FFFFFF" opacity=".14"/>
+
+    <!-- light sweep -->
+    <rect class="sweep" x="0" y="0" width="300" height="300" fill="url(#shine)" transform="skewX(-20)"/>
+
+    <!-- phone mark -->
+    <g transform="translate(965 62)"><g class="float">
+      <rect x="0" y="0" width="96" height="176" rx="22" fill="#FFFFFF" fill-opacity=".16" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="2"/>
+      <rect x="34" y="10" width="28" height="8" rx="4" fill="#FFFFFF" fill-opacity=".55"/>
+      <!-- swift-like bird glyph -->
+      <path d="M66 112c-2-12-12-26-26-36 6 6 10 14 11 22-8-6-18-12-27-18 7 8 15 16 22 22-7-3-16-8-23-13 9 12 23 24 37 28 6 2 12 1 15-2 2 3 4 7 4 10 3-4 1-9-1-11z" fill="#FFFFFF"/>
+    </g></g>
+
+    <!-- text -->
+    <text class="name" x="72" y="128">Md Ramim Biswas</text>
+    <text class="role" x="74" y="170">iOS Developer · Building premium apps for iPhone &amp; iPad</text>
+
+    <g transform="translate(74 196)">
+      <rect width="96" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
+      <text class="pill" x="48" y="21" text-anchor="middle">Swift</text>
+      <rect x="106" width="104" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
+      <text class="pill" x="158" y="21" text-anchor="middle">SwiftUI</text>
+      <rect x="220" width="96" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
+      <text class="pill" x="268" y="21" text-anchor="middle">UIKit</text>
+      <rect x="326" width="128" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
+      <text class="pill" x="390" y="21" text-anchor="middle">SwiftData</text>
+      <rect x="464" width="150" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
+      <text class="pill" x="539" y="21" text-anchor="middle">Concurrency</text>
+    </g>
+  </g>
+</svg>
