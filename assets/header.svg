@@ -1,70 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#F05138"/>
-      <stop offset="0.55" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#7B2FF7"/>
-    </linearGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-    </linearGradient>
-    <clipPath id="card"><rect width="1200" height="300" rx="24"/></clipPath>
-    <style>
-      .name { font: 800 64px -apple-system, "SF Pro Display", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; letter-spacing: -1px; }
-      .role { font: 600 24px -apple-system, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; fill-opacity: .92; }
-      .pill { font: 600 15px -apple-system, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif; fill: #FFFFFF; }
-      .fade { opacity: 0; animation: fade 1s ease-out forwards; }
-      .d1 { animation-delay: .1s } .d2 { animation-delay: .35s } .d3 { animation-delay: .6s }
-      @keyframes fade { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: translateY(0) } }
-      .wave1 { animation: drift 9s ease-in-out infinite alternate; }
-      .wave2 { animation: drift 12s ease-in-out infinite alternate-reverse; }
-      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-120px) } }
-      .sweep { animation: sweep 6s ease-in-out infinite; }
-      @keyframes sweep { 0% { transform: translateX(-700px) } 60%,100% { transform: translateX(1300px) } }
-      .float { animation: float 5s ease-in-out infinite alternate; }
-      @keyframes float { from { transform: translateY(0) } to { transform: translateY(-8px) } }
-    </style>
-  </defs>
-
-  <g clip-path="url(#card)">
-    <rect width="1200" height="300" fill="url(#bg)"/>
-
-    <!-- soft glows -->
-    <circle cx="1040" cy="40" r="180" fill="#FFFFFF" opacity=".08"/>
-    <circle cx="120" cy="290" r="160" fill="#7B2FF7" opacity=".12"/>
-
-    <!-- waves -->
-    <path class="wave2" d="M0 230 C 150 200, 300 270, 450 240 S 750 200, 900 235 S 1200 265, 1350 230 L1350 300 L0 300 Z" fill="#FFFFFF" opacity=".10"/>
-    <path class="wave1" d="M0 255 C 180 230, 330 290, 520 262 S 820 230, 1000 260 S 1250 285, 1350 255 L1350 300 L0 300 Z" fill="#FFFFFF" opacity=".14"/>
-
-    <!-- light sweep -->
-    <rect class="sweep" x="0" y="0" width="300" height="300" fill="url(#shine)" transform="skewX(-20)"/>
-
-    <!-- phone mark -->
-    <g transform="translate(965 62)"><g class="float">
-      <rect x="0" y="0" width="96" height="176" rx="22" fill="#FFFFFF" fill-opacity=".16" stroke="#FFFFFF" stroke-opacity=".55" stroke-width="2"/>
-      <rect x="34" y="10" width="28" height="8" rx="4" fill="#FFFFFF" fill-opacity=".55"/>
-      <!-- swift-like bird glyph -->
-      <path d="M66 112c-2-12-12-26-26-36 6 6 10 14 11 22-8-6-18-12-27-18 7 8 15 16 22 22-7-3-16-8-23-13 9 12 23 24 37 28 6 2 12 1 15-2 2 3 4 7 4 10 3-4 1-9-1-11z" fill="#FFFFFF"/>
-    </g></g>
-
-    <!-- text -->
-    <text class="name" x="72" y="128">Md Ramim Biswas</text>
-    <text class="role" x="74" y="170">iOS Developer · Building premium apps for iPhone &amp; iPad</text>
-
-    <g transform="translate(74 196)">
-      <rect width="96" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
-      <text class="pill" x="48" y="21" text-anchor="middle">Swift</text>
-      <rect x="106" width="104" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
-      <text class="pill" x="158" y="21" text-anchor="middle">SwiftUI</text>
-      <rect x="220" width="96" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
-      <text class="pill" x="268" y="21" text-anchor="middle">UIKit</text>
-      <rect x="326" width="128" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
-      <text class="pill" x="390" y="21" text-anchor="middle">SwiftData</text>
-      <rect x="464" width="150" height="32" rx="16" fill="#FFFFFF" fill-opacity=".18" stroke="#FFFFFF" stroke-opacity=".4"/>
-      <text class="pill" x="539" y="21" text-anchor="middle">Concurrency</text>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360"><defs><style>.f{font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif}.m{font-family:"SF Mono", SFMono-Regular, ui-monospace, Menlo, Consolas, "Liberation Mono", monospace}</style><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".14"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".04"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".10"/></linearGradient><radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(160 40) scale(520 360)"><stop offset="0" stop-color="#F05138" stop-opacity=".45"/><stop offset="1" stop-color="#F05138" stop-opacity="0"/></radialGradient><radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1040 300) scale(520 360)"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".40"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient><linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".7" stop-color="#FFE4DC"/><stop offset="1" stop-color="#FFB59E"/></linearGradient><linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E1E28"/><stop offset="1" stop-color="#121218"/></linearGradient><linearGradient id="balance" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F05138"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient><pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#FFFFFF" fill-opacity=".06"/></pattern><clipPath id="clip"><rect width="1200" height="360" rx="28"/></clipPath><clipPath id="phoneClip"><rect x="0" y="0" width="170" height="300" rx="30"/></clipPath><style>
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 72px 270px; transform-box: view-box; }
+      @keyframes pulse { 0%,100% { opacity: 1 } 50% { opacity: .35 } }
+      .float { animation: float 6s ease-in-out infinite alternate; }
+      @keyframes float { from { transform: translateY(0) } to { transform: translateY(-10px) } }
+      .breathe { animation: breathe 8s ease-in-out infinite alternate; }
+      @keyframes breathe { from { opacity: .75 } to { opacity: 1 } }
+      .bar { transform-box: fill-box; transform-origin: bottom; animation: grow 1.4s cubic-bezier(.2,.8,.2,1) both; }
+      @keyframes grow { from { transform: scaleY(.2) } to { transform: scaleY(1) } }
+    </style></defs><g clip-path="url(#clip)"><rect width="1200" height="360" fill="#0B0B10"/><rect width="1200" height="360" fill="url(#dots)"/><g class="breathe"><rect width="1200" height="360" fill="url(#glowA)"/><rect width="1200" height="360" fill="url(#glowB)"/></g><rect x=".5" y=".5" width="1199" height="359" rx="27.5" fill="none" stroke="url(#stroke)"/><text x="72" y="96" class="f" font-size="14" font-weight="700" letter-spacing="3" fill="#F05138">iOS DEVELOPER  ·  DHAKA, BANGLADESH</text><text x="68" y="172" class="f" font-size="72" font-weight="800" letter-spacing="-2.5" fill="url(#nameGrad)">Md Ramim Biswas</text><text x="72" y="214" class="f" font-size="22" font-weight="500" fill="#A1A1AA">Crafting fast, polished apps for iPhone &amp; iPad with</text><text x="72" y="244" class="f" font-size="22" font-weight="500" fill="#A1A1AA"><tspan fill="#F5F5F7">Swift</tspan>, <tspan fill="#F5F5F7">SwiftUI</tspan> and a love for clean architecture.</text><g transform="translate(72 268)"><rect width="232" height="36" rx="18" fill="#22C55E" fill-opacity=".10" stroke="#22C55E" stroke-opacity=".35"/><circle class="pulse" cx="22" cy="18" r="5" fill="#22C55E"/><text x="38" y="23" class="f" font-size="14" font-weight="600" fill="#BBF7D0">Open to iOS roles &amp; freelance</text></g><!-- phone mockup --><g transform="translate(880 30)"><g class="float"><rect x="-6" y="-6" width="182" height="312" rx="36" fill="#000000" stroke="#3A3A48" stroke-width="1.5"/><g clip-path="url(#phoneClip)"><rect width="170" height="300" fill="url(#screen)"/><rect x="58" y="10" width="54" height="16" rx="8" fill="#000"/><text x="16" y="52" class="f" font-size="10" font-weight="600" fill="#71717A">Total balance</text><text x="16" y="74" class="f" font-size="20" font-weight="800" fill="#F5F5F7">BDT 84,250</text><rect x="12" y="88" width="146" height="62" rx="14" fill="url(#balance)"/><text x="24" y="110" class="f" font-size="10" font-weight="600" fill="#FFFFFF" fill-opacity=".85">Budget · November</text><rect x="24" y="122" width="122" height="6" rx="3" fill="#FFFFFF" fill-opacity=".25"/><rect x="24" y="122" width="84" height="6" rx="3" fill="#FFFFFF"/><text x="24" y="142" class="f" font-size="9" font-weight="600" fill="#FFFFFF" fill-opacity=".85">68% used</text><text x="16" y="174" class="f" font-size="10" font-weight="600" fill="#71717A">Cashflow</text><g transform="translate(16 186)"><rect class="bar" x="0"   y="34" width="14" height="36" rx="4" fill="#F05138" fill-opacity=".55"/><rect class="bar" x="22"  y="18" width="14" height="52" rx="4" fill="#F05138" fill-opacity=".7" style="animation-delay:.1s"/><rect class="bar" x="44"  y="40" width="14" height="30" rx="4" fill="#F05138" fill-opacity=".55" style="animation-delay:.2s"/><rect class="bar" x="66"  y="8"  width="14" height="62" rx="4" fill="#F05138" style="animation-delay:.3s"/><rect class="bar" x="88"  y="26" width="14" height="44" rx="4" fill="#8B5CF6" fill-opacity=".8" style="animation-delay:.4s"/><rect class="bar" x="110" y="14" width="14" height="56" rx="4" fill="#8B5CF6" style="animation-delay:.5s"/></g><rect x="12" y="268" width="146" height="1" fill="#FFFFFF" fill-opacity=".08"/><circle cx="40" cy="284" r="4" fill="#F05138"/><circle cx="68" cy="284" r="4" fill="#71717A"/><circle cx="96" cy="284" r="4" fill="#71717A"/><circle cx="124" cy="284" r="4" fill="#71717A"/></g></g></g><!-- floating glass chip --><g transform="translate(1028 70)"><g class="float" style="animation-duration:7s"><rect width="128" height="52" rx="16" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/><text x="16" y="22" class="f" font-size="10" font-weight="600" fill="#71717A">Unit tests</text><text x="16" y="40" class="f" font-size="15" font-weight="700" fill="#F5F5F7">63 passing</text><circle cx="108" cy="26" r="9" fill="#22C55E" fill-opacity=".2"/><path d="M103.5 26.2l3 3 5.5-6" stroke="#22C55E" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g></g><g transform="translate(756 230)"><g class="float" style="animation-duration:8s"><rect width="112" height="52" rx="16" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/><text x="16" y="22" class="f" font-size="10" font-weight="600" fill="#71717A">Built with</text><text x="16" y="40" class="f" font-size="15" font-weight="700" fill="#F5F5F7">SwiftUI</text></g></g></g></svg>

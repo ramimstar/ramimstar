@@ -1,16 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120">
-  <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#7B2FF7"/>
-      <stop offset="0.5" stop-color="#FF6B35"/>
-      <stop offset="1" stop-color="#F05138"/>
-    </linearGradient>
-    <style>
-      .w1 { animation: drift 10s ease-in-out infinite alternate; }
-      .w2 { animation: drift 14s ease-in-out infinite alternate-reverse; }
-      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-120px) } }
-    </style>
-  </defs>
-  <path class="w2" d="M0 40 C 150 10, 300 70, 450 40 S 750 10, 900 45 S 1200 70, 1350 40 L1350 120 L0 120 Z" fill="url(#g)" opacity=".45"/>
-  <path class="w1" d="M0 65 C 180 40, 330 95, 520 70 S 820 40, 1000 70 S 1250 95, 1350 65 L1350 120 L0 120 Z" fill="url(#g)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200"><defs><style>.f{font-family:-apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif}.m{font-family:"SF Mono", SFMono-Regular, ui-monospace, Menlo, Consolas, "Liberation Mono", monospace}</style><linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F05138"/><stop offset="1" stop-color="#FF8A3D"/></linearGradient><linearGradient id="stroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".14"/><stop offset=".5" stop-color="#FFFFFF" stop-opacity=".04"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".10"/></linearGradient><radialGradient id="g1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 220) scale(620 220)"><stop offset="0" stop-color="#F05138" stop-opacity=".35"/><stop offset=".6" stop-color="#8B5CF6" stop-opacity=".12"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient><style>.shine { animation: shine 5s ease-in-out infinite alternate; } @keyframes shine { from { opacity: .6 } to { opacity: 1 } }</style></defs><rect width="1200" height="200" rx="24" fill="#0B0B10"/><rect class="shine" width="1200" height="200" rx="24" fill="url(#g1)"/><rect x=".5" y=".5" width="1199" height="199" rx="23.5" fill="none" stroke="url(#stroke)"/><text x="600" y="92" text-anchor="middle" class="f" font-size="34" font-weight="800" letter-spacing="-1" fill="#F5F5F7">Let’s build something great together.</text><text x="600" y="130" text-anchor="middle" class="f" font-size="17" fill="#A1A1AA">Have an iOS idea or a role in mind? I’d love to hear about it.</text><rect x="540" y="156" width="120" height="3" rx="1.5" fill="url(#accent)"/></svg>
